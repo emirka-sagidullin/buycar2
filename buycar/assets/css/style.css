@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 83px;
+    font-family: 'Roboto';
+    width: 1250px;
+    height: 580px;
+    background: #D09E52;
+    color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.card{
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card__productName{
+    height: 35px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+.card__price{
+    height: 35px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    color: black;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+label{
+    font-size: 24px;
+    font-family: 'Roboto';
+}
+
+input{
+    padding-left: 10px;
+    border-radius: 40px;
+    border: none;
+    font-size: 24px;
+    width: 300px;
+    height: 35px;
+}
+
+.card__buing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card__button{
+    border: none;
+    border-radius: 30px;
+    width: 250px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: #FFFFFF;
+    color: #D09E52;
+    font-size: 24px;
+}
+
+.cards__card{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card__image{
+    width: 400px;
+    height: 260px;
+    background: url(../img/shoes.svg)no-repeat center center/cover;
+}
+
+.card__buing{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card__cost{
+    display: flex;
+}
+
+.card__priceNew{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+span{
+    text-decoration: solid;
+}
+
+.card__buingBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__promoCode{
+    width: 200px;
+    height: 35px;
+}
